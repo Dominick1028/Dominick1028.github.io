@@ -4,7 +4,7 @@
         <title> Doms hopefully not sucky website</title>
                 <style>
     body {
-        background: rgb(125, 198, 205);
+        background: rgb(15, 198, 205);
         color: rgb(45, 45, 45);
         padding: 10px;
         font-family: arial;
@@ -18,13 +18,14 @@
     nav {
         background: rgb(239, 80, 41);
         margin: 0 auto;
+        margin-bottom: 20px;
         display: flex;
         padding: 10px;
     }
     h1 {
         display: flex;
         align-items: center;
-        color: white;
+        color: Black;
         flex: 1;
         margin: 0;
     }
@@ -63,48 +64,49 @@
     h2, h3 {
         margin: 0px;
     }
-</style>
+        </style>
     </head>
 
     <body>
         <!-- all content -->
-        <nav>
+        <div id="all-contents">
+        <nav id="nav-ul">
             <H1>Doms Website</H1>
             <ul>
-                <li> 
+                <li class="nav-li"> 
                 <a href="index.html"> Home </a>
                 </li>
-                <li>
+                <li class="nav-li">
                 <a href="portfolio.html"> portfolio </a>
                 </li>
             </ul>
         </nav>
-
-        <div>
             <nav>
 
             </nav> 
 
             <main>
                 <!-- sidebar action -->
-                <div>
-                    <img src= https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTiNCELgApQ0ZprUl70mXNurlrHz6JzxuLoRA&usqp=CAU">
+                <div class="sidebar">
+                    <img class="sidebar-img" src= https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTiNCELgApQ0ZprUl70mXNurlrHz6JzxuLoRA&usqp=CAU">
                 </div>
                 <!-- content section-->
-                <div>
+                <div class="content">
                     <h2>
                     Dominick Polito
                     </h2>
                     <p>
                     Student at Mandeville High 
                     <!--- Intrests section -->
-                        <Div> 
+                        <Div id="interests"> 
                             <H3> Intrests </H3>
-                            <ul>
-                                <li> xbox</li>
-                                <li> Friends</li>
-                                <li> Money </li>
-                            </ul>
+                            <div>
+                                <ul>
+                                    <li> Xbox</li>
+                                    <li> Friends</li>
+                                    <li> Money </li>
+                                </ul>
+                            </div id="intrests">
                         </Div>
                      </p>
                 </div>
